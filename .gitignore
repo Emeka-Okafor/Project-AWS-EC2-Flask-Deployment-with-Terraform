@@ -1,0 +1,28 @@
+# Terraform-specific
+.terraform/
+*.tfstate
+*.tfstate.backup
+crash.log
+*.tfvars
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+terraform.tfstate.lock.info
+
+# SSH Keys and Secrets
+*.pem
+*.key
+emekakey
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# System Files
+.DS_Store
+Thumbs.db
+*.log
+*.zip
